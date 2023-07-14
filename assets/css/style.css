@@ -1,0 +1,36 @@
+/* Estilos */
+
+body {
+    margin:0;
+    padding: 0;
+}
+
+main {
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.container-menu {
+    flex: 0 0 20vw;
+    height: 100vh;
+    background-color: aquamarine;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.container-chat {
+    flex: 0 0 80vw;
+    height: 100vh;
+    background-color: blueviolet;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
