@@ -55,6 +55,7 @@ body {
     margin: 0 0.5rem 0 0.5rem;
 }
 
+
 .format-user{
     padding: 1rem 1.5rem 1rem 1.5rem;
     width: 17rem;
@@ -63,12 +64,30 @@ body {
     border-color: #bec1bb;
 }
 
+.border-on-1{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bec1bb;
+}
+
+.border-on-2{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #bec1bb;
+}
+
 .container-menu {
     width: 20rem;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 100%;
+    height: 100%;
 }
 
 .menu-header{
+    width: 100%;
+}
+
+.menu-body{
     width: 100%;
 }
 
@@ -76,18 +95,20 @@ body {
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
-    border-style: solid;
-    border-color:#bec1bb;
-    border-width: 2px;
+}
+
+.h-tiny{
+    height: 2.5rem;
+}
+
+.h-normal{
+    height: 3.5rem;
 }
 
 .thumbnail-normal{
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 50%;
-    border-style: solid;
-    border-color: #bec1bb;
-    border-width: 2px;
 }
 
 .text-nickname-perfil{
@@ -132,19 +153,12 @@ body {
     height: 3rem;
     padding: 3rem;
     width: 14rem;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #bec1bb;
-
 }
 
 .container-chat {
-    flex: 0 0 80vw;
-    height: 100vh;
-    background-color: blueviolet;
-
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    height: 100%;
+    background-color: #e8ebe4;
 }
