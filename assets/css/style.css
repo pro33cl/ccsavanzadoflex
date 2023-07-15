@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Roboto','Open Sans';
+    background-color: #e8ebe4;
 }
 
 .f-row{
@@ -81,6 +82,7 @@ body {
     min-height: 100vh;
     max-height: 100%;
     height: 100%;
+    background-color: white;
 }
 
 .menu-header{
@@ -92,22 +94,22 @@ body {
 }
 
 .thumbnail-tiny{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
 }
 
 .h-tiny{
-    height: 2.5rem;
+    height: 2rem;
 }
 
 .h-normal{
-    height: 3.5rem;
+    height: 2.5rem;
 }
 
 .thumbnail-normal{
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
 }
 
@@ -150,9 +152,9 @@ body {
 
 
 .user-newchat{
-    height: 3rem;
-    padding: 3rem;
-    width: 14rem;
+    height: 2.5rem;
+    padding: 2rem;
+    width: 16rem;
 }
 
 .container-chat {
@@ -160,5 +162,31 @@ body {
     min-height: 100vh;
     max-height: 100%;
     height: 100%;
-    background-color: #e8ebe4;
+}
+
+.image-large{
+    height: 16rem;
+    width: 16rem;
+}
+
+.w-logo{
+    width: 40%;
+}
+
+.text-m-normal-center{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color:#444749;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text-m-bold-center{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color:#444749;
+    font-weight: 700;
+    text-align: center;
 }
