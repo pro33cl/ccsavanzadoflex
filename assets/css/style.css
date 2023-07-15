@@ -1,26 +1,140 @@
-/* Estilos */
+/* style.css */
+/*Importando Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
 
-body {
-    margin:0;
+*{
+    margin: 0;
     padding: 0;
 }
 
-main {
+body {
+    font-family: 'Roboto','Open Sans';
+}
+
+.f-row{
     display:flex;
     flex-direction: row;
+}
+
+.f-column{
+    display:flex;
+    flex-direction: column;
+}
+
+.f-start-star{
     justify-content: start;
     align-items: start;
 }
 
-.container-menu {
-    flex: 0 0 20vw;
-    height: 100vh;
-    background-color: aquamarine;
-
-    display:flex;
-    flex-direction: column;
+.f-start-center{
     justify-content: start;
     align-items: center;
+}
+
+.f-between-center{
+    justify-content:space-between;
+    align-items: center;
+}
+
+.f-between-start{
+    justify-content:space-between;
+    align-items: start;
+}
+
+.f-center-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.f-center-start{
+    justify-content: center;
+    align-items: start;
+}
+
+.mh-0-5{
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.format-user{
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    width: 17rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bec1bb;
+}
+
+.container-menu {
+    width: 20rem;
+    height: 100vh;
+}
+
+.menu-header{
+    width: 100%;
+}
+
+.thumbnail-tiny{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-color:#bec1bb;
+    border-width: 2px;
+}
+
+.thumbnail-normal{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #bec1bb;
+    border-width: 2px;
+}
+
+.text-nickname-perfil{
+    margin: 0 0 0.25rem 0;
+    padding: 0;
+    font-size: 16px;
+    color:#444749;
+    font-weight: 500;
+}
+
+.text-state{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: #bec1bb;
+    font-weight: 400;
+}
+
+.text-nickname-user{
+    margin: 0 0 0.25rem 0;
+    padding: 0;
+    font-size: 16px;
+    color:#444749;
+    font-weight: 500;
+}
+
+.text-lastmessage{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color:#444749;
+    font-weight: 400;
+}
+
+.user-icons{
+    width: 4rem;
+    height: 2rem;
+}
+
+
+.user-newchat{
+    height: 3rem;
+    padding: 3rem;
+    width: 14rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bec1bb;
 
 }
 
