@@ -60,14 +60,11 @@ body {
 .format-user{
     padding: 1rem 1.5rem 1rem 1.5rem;
     width: 17rem;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #bec1bb;
 }
 
 .border-on-1{
     border-style: solid;
-    border-width: 1px;
+    border-width: 0.5px;
     border-color: #bec1bb;
 }
 
@@ -103,14 +100,14 @@ body {
     height: 2rem;
 }
 
-.h-normal{
-    height: 2.5rem;
+.thumbnail-normal{
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
 }
 
-.thumbnail-normal{
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
+.h-normal{
+    height: 2.4rem;
 }
 
 .text-nickname-perfil{
@@ -169,15 +166,16 @@ body {
     width: 16rem;
 }
 
-.w-logo{
-    width: 40%;
+.format-logo{
+    width: 31rem;
+    margin: 1rem;
 }
 
 .text-m-normal-center{
     margin: 0;
     padding: 0;
     font-size: 16px;
-    color:#444749;
+    color:#1b1f21;
     font-weight: 400;
     text-align: center;
 }
@@ -186,7 +184,16 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    color:#444749;
+    color:#1b1f21;
     font-weight: 700;
+    text-align: center;
+}
+
+.text-l-normal-center{
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    color:#1b1f21;
+    font-weight: 400;
     text-align: center;
 }
